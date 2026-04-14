@@ -3,7 +3,10 @@
 # 1. Introduction
 Ce projet a pour but de mettre en pratique les bases de Git : création de branches, manipulation de fichiers et fusion (merge) de branches avec gestion d'historiques.
 
-# 2. Installation de GitPour reproduire cet environnement, vous devez installer Git. Voici les commandes pour les systèmes principaux :Bash# Pour Debian/Ubuntu
+# 2. Installation de Git
+Pour reproduire cet environnement, vous devez installer Git. 
+Voici les commandes pour les systèmes principaux :
+- Pour Debian/Ubuntu
 sudo apt update
 sudo apt install git
 - Pour MacOS (via Homebrew)

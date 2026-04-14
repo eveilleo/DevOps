@@ -1,34 +1,34 @@
 "#Projet DevOps" 
 
-1. Introduction
+# 1. Introduction
 Ce projet a pour but de mettre en pratique les bases de Git : création de branches, manipulation de fichiers et fusion (merge) de branches avec gestion d'historiques.
 
-2. Installation de GitPour reproduire cet environnement, vous devez installer Git. Voici les commandes pour les systèmes principaux :Bash# Pour Debian/Ubuntu
+# 2. Installation de GitPour reproduire cet environnement, vous devez installer Git. Voici les commandes pour les systèmes principaux :Bash# Pour Debian/Ubuntu
 sudo apt update
 sudo apt install git
-# Pour MacOS (via Homebrew)
+- Pour MacOS (via Homebrew)
 brew install git
-# Pour Windows
-# Téléchargez l'installeur sur https://git-scm.com/download/win
+- Pour Windows
+- Téléchargez l'installeur sur https://git-scm.com/download/win
 
-3. Documentation de référence
+# 3. Documentation de référence
 Les ressources suivantes ont été consultées pour la réalisation de ce projet :
 https://git-scm.com/book/fr/v2
 https://docs.github.com/fr/authentication/connecting-to-github-with-ssh
 https://docs.github.com/fr/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches
 
-4. Tableau des commandes réalisées
-git init : Initialise un nouveau dépôt Git localement.
-git checkout -b develop : Crée la branche "develop" et bascule dessus.
-touch file1 file2 file3 : Crée les trois fichiers initiaux (ou type nul > sur Windows).
-git add . : Ajoute toutes les modifications à l'index pour le prochain commit.
-git commit -m "msg" : Enregistre les modifications dans l'historique local.
-git push origin develop : Envoie la branche locale vers le serveur distant (GitHub).
-git merge develop : Fusionne les modifications de develop vers la branche actuelle (main).
-ren file1 file1.txt(Windows CMD) : Renomme le fichier file1.
-del file3(Windows CMD) : Supprime le fichier file3.
+# 4. Tableau des commandes réalisées
+git init                      -> Initialise un nouveau dépôt Git localement.
+git checkout -b develop       -> Crée la branche "develop" et bascule dessus.
+touch file1 file2 file3       -> Crée les trois fichiers initiaux (ou type nul > sur Windows).
+git add .                     -> Ajoute toutes les modifications à l'index pour le prochain commit.
+git commit -m "msg"           -> Enregistre les modifications dans l'historique local.
+git push origin develop       -> Envoie la branche locale vers le serveur distant (GitHub).
+git merge develop             -> Fusionne les modifications de develop vers la branche actuelle (main).
+ren file1 file1.txt           -> Renomme le fichier file1.
+del file3                     -> Supprime le fichier file3.
 
-5. Diagramme du workflow (Flow de commit)
+# 5. Diagramme du workflow (Flow de commit)
 Voici une représentation visuelle de la structure des branches utilisée dans ce projet :
 
 main    :  (A) ----------------------- (C)   <-- Fusion (Merge)

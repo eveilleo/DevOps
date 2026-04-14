@@ -7,10 +7,10 @@ Ce projet a pour but de mettre en pratique les bases de Git : création de branc
 Pour reproduire cet environnement, vous devez installer Git. 
 Voici les commandes pour les systèmes principaux :
 - Pour Debian/Ubuntu
-sudo apt update
-sudo apt install git
+-- sudo apt update
+-- sudo apt install git
 - Pour MacOS (via Homebrew)
-brew install git
+-- brew install git
 - Pour Windows
 - Téléchargez l'installeur sur https://git-scm.com/download/win
 
